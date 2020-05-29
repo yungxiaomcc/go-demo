@@ -76,7 +76,7 @@ const (
 
 //iota 常量计数器，只能用在常量表达式中
 //iota在const关键字中出现将被重置为0，const中每新增一行常量
-//声明 将使iota计数一次，iota可理解为const语句块中的行索引
+//声明 将使iota计数一次，iota可理解为const语句块中的行级索引
 //
 //
 func main() {
