@@ -2,8 +2,14 @@ package main
 
 import (
 	"fmt"
+
+	"github.com/yungxiaomcc/go-demo/tool"
 )
 
 func main() {
-	fmt.Printf("hello")
+	str := "杨晓"
+	num := tool.FindChineseCharacter(str)
+	fmt.Println(num)
+
+	tool.ToolTest()
 }

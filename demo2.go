@@ -79,7 +79,7 @@ const (
 //声明 将使iota计数一次，iota可理解为const语句块中的行级索引
 //
 //
-func main() {
+func main1() {
 	fmt.Println(d1)
 	fmt.Println(d2)
 	fmt.Println(d3)
