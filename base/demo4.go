@@ -1,10 +1,10 @@
-package main
+package base
 
 import "fmt"
 
 //浮点数
 
-func main() {
+func () {
 	//math.MaxFloat32 //最大float32 值
 	f1 := 3.12
 	//go 语言中默认小数都是float64
